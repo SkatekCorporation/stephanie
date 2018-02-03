@@ -1,0 +1,10 @@
+{# 
+/**
+* macros.html
+* @author Souvenance <skavunga@gmail.com>
+* @version 1.1
+*/    
+#}
+{% macro getNoms(user) %}
+    {{ user.nom | capitalize }} {{ user.prenom | capitalize }}
+{% endmacro %}

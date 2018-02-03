@@ -1,0 +1,33 @@
+/**
+* styles.css
+* @author Souvenance <skavunga@gmail.com>
+* @version 1.1
+*/
+.image-head {
+    width: 80%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 0;
+}
+
+.btn-gros{
+    height: 5em;
+    padding-top: 1.9em;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.contenu-b {
+    background-color: rgba(1, 78, 151, 0.08);
+    border       : 1px solid #dddddd;
+    border-radius: 3px;
+}
