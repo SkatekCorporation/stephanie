@@ -19,5 +19,7 @@
             "App\\": "application",
             "Stephanie\\": "core"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
