@@ -23,5 +23,5 @@
             "Cake\\Chronos\\": "imports/chronos/src"
         }
     },
-    "minimum-stability": "stable"
+    "stability": "stable"
 }
