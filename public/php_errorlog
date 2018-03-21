@@ -1,0 +1,16 @@
+[08-Mar-2018 01:04:52 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 275
+[10-Mar-2018 01:33:57 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 275
+[10-Mar-2018 01:57:35 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 275
+[10-Mar-2018 02:02:14 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 275
+[10-Mar-2018 02:06:08 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 275
+[10-Mar-2018 02:16:24 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 275
+<<<<<<< HEAD
+=======
+[19-Mar-2018 20:37:29 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+[19-Mar-2018 20:43:02 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+[19-Mar-2018 20:51:02 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+[19-Mar-2018 21:05:29 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+[19-Mar-2018 21:08:17 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+[19-Mar-2018 21:09:49 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+[19-Mar-2018 21:11:13 CST6CDT] PHP Notice:  Use of undefined constant IMAGES_ROOT - assumed 'IMAGES_ROOT' in /home/skatek15/applications/tledger/application/Controller/Users.php on line 272
+>>>>>>> master
