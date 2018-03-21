@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-letemoin
-=======
-**Skatek Stephanie Framework**
+
+**Stephanie Framework**
 
 ## Description
 
@@ -12,15 +10,14 @@ Cette architecture vous aide à développer n'importe que l application en PHP. 
 ## Installation
 **Avec Composer**
 Vous pouvez utiliser composer pour l'installer. Alors vous devez faire un coup de :
-    **composer create-project --prefer-dist skatek/stephanie appdir**
+```
+    composer create-project --prefer-dist skatek/stephanie appdir
+```
 *appdir* est le nom du dossier que composer va créer.
 ---
 **En clonant le dépot**
-Vous dézipper le projet que vous avez télécharger dans le répertoire que vous souhaiter, puis faites un coup de **composer install**
+Vous dézipper le projet que vous avez télécharger dans le répertoire que vous souhaiter, puis faites un coup de ```composer install ```
 ---
 **En utilisant le tarball**
 Avec cette méthode, vous n'avez pas à utiliser composer. Vous ne faites que copier tout les fichiers du projet déja extrait dans le repertoire de votre choix.
 ---
-
-## Organisation des fichiers
->>>>>>> 364ef912ade64168327129e3e54db84d42429baf

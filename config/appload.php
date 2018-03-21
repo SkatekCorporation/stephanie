@@ -43,7 +43,7 @@
     * DB_PASSWORD => Mot de passe de la base de donnees
     */
     define('HOST',        'localhost');
-    define('DB_NAME',     'tledger');
+    define('DB_NAME',     'stephanie');
     define('DB_USERNAME', 'root');
     define('DB_PASSWORD', 'Skatek-001');
     
@@ -122,6 +122,10 @@
         echo "</div></div>";
     }
 
+
+    /**
+     * Affichage des messages success selon la logique bootstrap
+     */
     function debugSuccess($message = null, $class = 'success'){
         echo '<div class = "container">';
         echo '<div class = "alert alert-' . $class . '">';
@@ -129,6 +133,11 @@
         echo '</div></div>';
     }
 
+
+    /**
+     * On verifie si l'interface utiliser est permises, 
+     * Sinon, on bloque le lancement de l'application
+     */
     function verification_interface(){
         if (php_sapi_name() == 'cli') {
             print("\n\tSalut!\n\tNous ne prenons pas encore en charge ce type d'interface\n\n");

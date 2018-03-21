@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 
@@ -79,4 +80,87 @@ class Request {
     public static function getReferer(){
         return self::$server['HTTP_REFERER'];
     }
+=======
+<?php
+
+
+namespace Stephanie;
+
+class Request {
+    private static $datas    = [];
+    private static $queries  = [];
+    private static $sessions = [];
+    private static $method;
+    private static $server;
+
+    public function __construct()
+    {
+        self::$datas    = $_POST;
+        self::$queries  = $_GET;
+        self::$method   = $_SERVER['REQUEST_METHOD'];
+        self::$sessions = $_SESSION;
+        self::$server   = $_SERVER;
+    }
+
+    public static function getData($name = null)
+    {
+        if ($name == null){
+            return self::$datas;
+        }
+        else if (! empty(self::$datas)){
+            return self::$datas[$name];
+        }
+        return NULL;
+    }
+
+    /**
+     * Obtenir les requetes passes dans l'URL
+     * @return mixed Requetes 'sils eistent ou null
+     */
+    public static function getQuery($name = null){
+        if ($name == null) {
+            return self::$queries;
+        } else if (! empty(self::$queries[$name])){
+            return self::$queries[$name];
+        }
+        return NULL;
+    }
+
+    /**
+     * Recuperer la valeur de l'URL en cours d'execution
+     * @return string Valeur de l'URL
+     */
+    public static function getUrl(){
+        return self::$sessions['current_url'];
+    }
+
+    public static function getSession($name = null){
+        if ($name == null){
+            return self::$sessions;
+        } else if (! empty(self::$sessions[$name])) {
+            return self::$sessions[$name];
+        }
+        return NULL;
+    }
+
+    public static function setSession($key, $value){
+        self::$sessions[$key] = $value;
+    }
+    
+    /**
+     * Verifie si la methode HTTP est de cet type
+     * @param string $method Methode a comparer
+     * @return string|FALSE False, si la methode ne correspond pas au HTTP METHOD
+     */
+    public static function is($method = null){
+        if($method == null || \strtoupper($method) === self::$method) {
+            return self::$method;
+        }
+        return FALSE;
+    }
+
+    public static function getReferer(){
+        return self::$server['HTTP_REFERER'];
+    }
+>>>>>>> 00f7cb084a74b7c51cef9a730acb0b23443ef191
 }

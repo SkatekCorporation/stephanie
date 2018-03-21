@@ -9,6 +9,9 @@ taille_f = 752
 navbarg = $('#navbar-g')
 menr    = $('#menu-r')
 
+$(document).ready(function () {
+    $('[rel=tooltip]').tooltip()
+});
 // Prenvention
 if ($(window).width() <= taille_f){
     navbarg.hide()
@@ -26,7 +29,3 @@ $(window).bind('resize', function(){
         menr.addClass('pull-right')
     }
 })
-
-$('#date').css('padding', 'inherit')
-$('#heure').css('padding', 'inherit')
-$('#jour').css('padding', 'inherit')
