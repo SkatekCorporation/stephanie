@@ -6,7 +6,7 @@
 */    
 #}
 {% macro input(name, label, value = null, options = []) %}
-    <div class="form-group {{ options.class ?: 'col-md-6' }}" style="{{ options.style }}" >
+    <div class="form-group {{ options.class ?: 'col-md-6' }}">
         <label for="{{ name }}"> {{ label }} </label>
         <input {{ options.af ? 'autofocus = "autofocus"' : null }} type="{{ options.type ?: 'text' }}" {{ options.rq ? 'required = "required"' : null }} placeholder="{{ options.ph ?: '' }}" id="{{ name }}" name="{{ name }}" value="{{ value|e }}" class="form-control" />
     </div>

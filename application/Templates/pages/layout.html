@@ -1,0 +1,20 @@
+{#
+/**
+* layout.html
+* @author Souvenance <skavunga@gmail.com>
+* @version 1.1
+*/
+#}
+{% extends "base.html" %}
+
+{% block header %}
+    <h1> {{ title }} </h1>
+{% endblock %}
+
+{% block navbar %}
+    {{ linkHtml('/skatek', 'Skatek Corporation', { class: 'list-group-item' ~ activeClass('/skatek') }) }}
+{% endblock %}
+
+{% block corps %}
+    
+{% endblock %}

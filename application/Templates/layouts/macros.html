@@ -8,7 +8,3 @@
 {% macro getNoms(user) %}
     {{ user.nom | capitalize }} {{ user.prenom | capitalize }}
 {% endmacro %}
-
-{% macro datef(d) %}
-    {{ d | date('d F Y') }}
-{% endmacro %}

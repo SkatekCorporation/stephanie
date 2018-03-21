@@ -71,7 +71,7 @@
             $this->view->addGlobal('rootLink'    , DOMAIN);
             $this->view->addGlobal('current_page', Request::getSession('current_page'));
             $this->view->addGlobal('app_theme'   , APP_THEME);
-            $this->view->addGlobal('software'    , 'T-LEDGER');
+            $this->view->addGlobal('software'    , 'Stephanie Framework');
             $this->view->addGlobal('software_v'  , 'v1.0.5');
             $this->view->addGlobal('format_date' , 'l, d F Y');
             

@@ -45,14 +45,15 @@
     */
     
     
-    $router->get('/',            'Examples#index'); // Page principal
+    $router->get('/',            'Pages#index'); // Page principal
 
     /**
      * Nous essayons de lancer l'application d'une maniere sur et de capturer les erreurs 
      * de routage s'ils existent
      */
-    $router->get('/skatek',      'Examples#skatek');
-
+    $router->get('/skatek',      'Pages#skatek');
+    $router->get('/apropos',     'Pages#skatek');
+    
     try {
         $router->run();
     } catch (RouterException $e){ }
